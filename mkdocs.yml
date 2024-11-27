@@ -1,7 +1,7 @@
 site_name: Applied ML for Process Automation in Industries
 copyright: Copyright &copy; BME VIK AUT
-repo_name: mradazouz/AppliedML
-repo_url: https://github.com/mradazouz/AppliedML
+repo_name: mradazouz/FreeElective-AppliedML
+repo_url: https://github.com/mradazzouz/FreeElective-AppliedML
 nav:
   - Home: index.md
   - Lectures: 
