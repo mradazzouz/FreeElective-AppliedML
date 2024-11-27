@@ -1,0 +1,70 @@
+site_name: Applied ML for Process Automation in Industries
+copyright: Copyright &copy; BME VIK AUT
+repo_name: mradazouz/AppliedML
+repo_url: https://github.com/mradazouz/AppliedML
+nav:
+  - Home: index.md
+  - Lectures: 
+      - lectures/intro.md
+      - lectures/casestudy1.md
+  - Lecture notes: notes.md
+  - Homework: homework.md
+  - Seminars: seminars.md
+  - About: about.md
+
+theme:
+  name: material
+  
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: aut
+      primary: aut
+      accent: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Change Theme
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      toggle:
+        icon: material/lightbulb
+        name: Change Theme
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - content.action.edit
+  logo: logo-bme-aut.png
+  favicon: favicon.ico
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - md_in_html
+  - pymdownx.keys
+
+ 
